@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "nd-mentores": "node --watch ./js/nd-mentores.js",
     "array": "node --watch ./js/6-array.js",
     "if": "node --watch ./js/5-if.js",
     "boolean": "node --watch ./js/4-boolean.js",
