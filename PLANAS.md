@@ -4,25 +4,25 @@
     ~~- tekstas (string)~~
     ~~- skaiciai (number)~~
     ~~- logines reiksmes (boolean)~~
-    - sarasas (array)
-    - objektas (object)
-    - null
-    - undefined
+   ~~ - sarasas (array)~~
+   ~~ - objektas (object)~~
+   ~~ - null (reuksme neegzistuoja, bet mes ketiname ja gauti/paskaiciuoti)~~
+   ~~ - undefined ( reiksme neegzistuoja)~~
 - funkcijos (perpanaudojamas kodo blokas/logika) :
     ~~- "paprasta"~~
     - rodykline
     - metodai:
-    - math biblioteka
-    -string methods
-    -number methods
-    - array methods
-    - object methods
+        - math biblioteka
+        -string methods
+        -number methods
+        - array methods
+        - object methods
 - palyginimas:
     ~~- if~~
     - ternary
     - switch
 - ciklas:
-    - for
+    ~~- for~~
     - while
     - for-of
     - for-in
