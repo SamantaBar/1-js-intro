@@ -25,8 +25,10 @@
     "interval-count": "node --watch ./js/task/interval-count.js",
     "multi-table": "node --watch ./js/task/multi-table.js",
     "bigestNumber": "node --watch ./js/task/bigestNumber.js",
+    "valid-name": "node --watch ./js/task/valid-name.js",
     "digit-count": "node --watch ./js/task/digit-count.js",
     "cw1": "node --watch ./Test/cw1.js",
+    "1-for": "node --watch ./js/namu_darbai/1-for.js",
     "test3": "node --watch ./Test/test3.js",
     "js": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
