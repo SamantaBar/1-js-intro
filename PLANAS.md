@@ -13,17 +13,17 @@
     - rodykline
     - metodai:
         - math biblioteka
-        -string methods
+        ~~-string methods~~
         -number methods
         - array methods
         - object methods
 - palyginimas:
     ~~- if~~
-    - ternary
+    ~~- ternary~~
     - switch
 - ciklas:
     ~~- for~~
-    - while
-    - for-of
+   ~~ - while~~
+  ~~  - for-of~~
     - for-in
 - ivykiu stebejimas (event listeners)
