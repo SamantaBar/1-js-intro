@@ -206,8 +206,6 @@ const people = [
 const people100 = people.map(person => `${person.name} liko ${100 - person.age} metai.`);
 console.log(people100);
 
-/* // vardai 
-
 const peopleNames = people.map(person => person.name);
 console.log(peopleNames);
 
@@ -215,12 +213,11 @@ const peopleAges = people.map(person => person.age);
 console.log(peopleAges);
 
 const peopleMarried = people.map(person => {
-     person.isMarrieed = true,
-     person.luckyNumber = 13,
-     return person;
+    person.isMarried = true;
+    person.luckyNumber = 13;
+    return person;
 });
-console.log(peopleMarried); 
-*/
+console.log(peopleMarried);
 
 console.clear();
 
