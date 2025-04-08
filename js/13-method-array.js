@@ -139,3 +139,136 @@ console.log(h);
 
 h.splice(1, 2);
 console.log(h);
+
+console.clear(); // 04-08d
+
+// const f = s => s[0]; 
+
+// MAP - 
+
+const k = [10, 2, 8, 4, 6];
+const k2 = [];
+
+for (const n of k) {
+    k2.push(n * 2);
+}
+console.log(k2);
+
+// funkcija patrigubinti
+
+function triple(n) {
+    return n * 3;
+}
+const k3 = k.map(triple);
+console.log(k3);
+
+// *4
+
+
+const quadro = n => n * 4;
+const k4 = k.map(quadro);
+console.log(k4);
+
+// *5 (irasyta viduje, bet nebegalima veliau isoreje naudoti)
+
+const k5 = k.map(n => n * 5);
+console.log(k5);
+
+// gavosi kopija
+
+const k6 = k.map(n => n);
+console.log(k6);
+
+// +1
+
+const k7 = k.map(n => n + 1);
+console.log(k7);
+
+// paima pirmajas raides is masyvu
+
+const dict = ['pomidoras', 'agurkas', 'bulve', 'svogunas'];
+const dict2 = dict.map(w => w[0]);
+console.log(dict2);
+
+// paskaiciuoja ilgi raidziu
+
+const dict3 = dict.map(w => w.length);
+console.log(dict3);
+
+const people = [
+    {name: 'Jonas', age: 99},
+    {name: 'Maryte', age: 88},
+    {name: 'Petras', age: 77},
+    {name: 'Ona', age: 66},
+];
+// kiek metu liko iki 100
+
+const people100 = people.map(person => `${person.name} liko ${100 - person.age} metai.`);
+console.log(people100);
+
+/* // vardai 
+
+const peopleNames = people.map(person => person.name);
+console.log(peopleNames);
+
+const peopleAges = people.map(person => person.age);
+console.log(peopleAges);
+
+const peopleMarried = people.map(person => {
+     person.isMarrieed = true,
+     person.luckyNumber = 13,
+     return person;
+});
+console.log(peopleMarried); 
+*/
+
+console.clear();
+
+// FILTER
+
+const p = [10, 2, 8, 4, 6];
+
+// 1 Variantas
+
+const p5 = [];
+
+for (const n of p) {
+    if (n > 5) {
+        p5.push(n);
+    }
+}
+
+console.log(p5);
+
+// 2 Variantas su filtru
+
+const p6 = p.filter(n => n > 6);
+console.log(p6);
+
+const p7 = p.filter(n => n < 7);
+console.log(p7);
+
+const p8 = p.filter(n => n > 2 && n < 8);
+console.log(p8);
+
+const texts5 = ['labas', '', 'rytas','', 'Lietuva'];
+
+const texts5Updated = texts5.filter(t => t.length > 0);
+console.log(texts5Updated);         // labiau naudojamas
+
+const texts5Updated2 = texts.filter(t => t);
+console.log(texts5Updated);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
