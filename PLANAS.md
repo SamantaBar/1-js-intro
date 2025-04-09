@@ -10,12 +10,12 @@
    ~~ - undefined ( reiksme neegzistuoja)~~
 - funkcijos (perpanaudojamas kodo blokas/logika) :
     ~~- "paprasta"~~
-    - rodykline
+   ~~ - rodykline~~
     - metodai:
         - math biblioteka
         ~~-string methods~~
-        -number methods
-        - array methods
+       ~~ -number methods~~
+        ~~- array methods~~
         - object methods
 - palyginimas:
     ~~- if~~
@@ -25,5 +25,5 @@
     ~~- for~~
    ~~ - while~~
   ~~  - for-of~~
-    - for-in
+   ~~ - for-in~~
 - ivykiu stebejimas (event listeners)

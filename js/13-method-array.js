@@ -256,6 +256,66 @@ console.log(texts5Updated);         // labiau naudojamas
 const texts5Updated2 = texts.filter(t => t);
 console.log(texts5Updated);
 
+console.log('---------------------');
+
+
+// fill
+
+const default5 = [0, 0, 0, 0, 0]
+
+const default7 = Array(7).fill(99) // imeta i masyva norima objekta
+
+console.log(default7);
+
+const zeros = Array(10).fill(0);
+console.log(zeros);
+
+const negatives = Array(8).fill(false);
+console.log(negatives);
+
+const emptySpaces = Array(40).fill('');
+console.log(emptySpaces);
+
+const labas5 = Array(5).fill('labas');
+console.log(labas5);
+
+const  demo = [10, 2, 8, 4, 6];
+console.log(demo);
+
+demo.fill(777);
+console.log(demo);
+
+console.clear();
+
+// every  ( atsakymai true/false bet visi turi atitikti)
+
+const trees = ['uosis', 'egle', 'azuolas', 'tuopa'];
+const allTreesValid = trees.every(s => s.length > 0);
+const allTreesNameSize5 = trees.every(s => s.length === 5);
+console.log(allTreesValid);
+console.log(allTreesNameSize5);
+
+// some ( atsakymai true/false bet uztenka kad atitiktu vienas)
+
+const someTreesValid = trees.every(s => s.length > 0);
+console.log(someTreesValid);
+
+console.clear();
+
+// sort 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
